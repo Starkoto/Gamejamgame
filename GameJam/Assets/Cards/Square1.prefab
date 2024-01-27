@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2429230799923457679}
   - component: {fileID: -1361622386305439982}
   - component: {fileID: -2520927046209029888}
-  - component: {fileID: 623395231363730457}
+  - component: {fileID: -8747015431583651457}
   m_Layer: 0
   m_Name: Square1
   m_TagString: Untagged
@@ -146,7 +146,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &623395231363730457
+--- !u!114 &-8747015431583651457
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -155,6 +155,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6587723693207972632}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b39378554de66574da00db1af014a547, type: 3}
+  m_Script: {fileID: 11500000, guid: 2d57811bc1fb5eb4d95bc1aeaefa0697, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cardeffects: {fileID: 389588268055882861, guid: f616de91d2929419e8060bdcbabb5a39, type: 3}
