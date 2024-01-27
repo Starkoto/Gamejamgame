@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class Cardeffects : MonoBehaviour
 {
+   
     public Player player;
     public Healthbar healthbar;
+     
+    
     public void GetHp(int a){
         player.currenthp += a;
         healthbar.SetHealth(player.currenthp);
