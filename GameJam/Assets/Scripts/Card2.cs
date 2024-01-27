@@ -5,8 +5,7 @@ using UnityEngine;
 public class Card2 : MonoBehaviour
 {
     // Start is called before the first frame update
-    Cardeffects card2;
-    public Player player;
+    public Cardeffects card2;
     void Start()
     {
 
@@ -15,8 +14,8 @@ public class Card2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    if(Input.GetKeyDown("space")){
-        //player.currenthp = 50;
+    if(Input.GetKey("up")){
+        card2.GetHappy(20);
     }
     
     }
