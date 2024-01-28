@@ -6,23 +6,23 @@ using UnityEngine;
 public class Card1 : MonoBehaviour
 {
     public Cardeffects cardeffects;
+    public int health;
 
     // Update is called once per frame
-    void Start()
+    
+    void OnMouseDown()
     {
-        
-    }
-
-    void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            // Call a method to handle the destruction
-            cardeffects.LoseHp(20);
-
-            // Destroy the object when the mouse button is clicked
-            Destroy(gameObject);
-        }
+        // Destroy the object when clicked
+        cardeffects.LoseHp(health);
+        Destroy(gameObject);
+       // Destroy(gameObject);
     }
 }
+        
+
+
+        
+
+    
+
 
