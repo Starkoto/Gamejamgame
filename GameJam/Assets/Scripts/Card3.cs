@@ -14,9 +14,12 @@ public class Card3 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    if(Input.GetKey("down")){
-        card3.LoseHappy(20);
-    }
+        if(Input.GetKey("down")){
+            card3.LoseHappy(20);
+        }
+        if(Input.GetKey("up")){
+            card3.GetHappy(20);
+        }
     
     }
 }

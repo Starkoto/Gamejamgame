@@ -10,7 +10,7 @@ public class Happybar : MonoBehaviour
         slider.maxValue = happy;
         slider.value = happy;
     }
-    public void SetHealth(int happy){
+    public void SetHappy(int happy){
         slider.value = happy;
     }
 }

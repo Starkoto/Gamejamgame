@@ -7,6 +7,7 @@ public class Cardeffects : MonoBehaviour
    
     public Player player;
     public Healthbar healthbar;
+    public Happybar happybar;
      
     
     public void GetHp(int a){
@@ -15,6 +16,7 @@ public class Cardeffects : MonoBehaviour
     }
     public void GetHappy(int a){
         player.currenthappy += a;
+        happybar.SetHappy(player.currenthappy);
     }
     public void LoseHp(int a){
         player.currenthp -= a;
@@ -22,5 +24,6 @@ public class Cardeffects : MonoBehaviour
     }
     public void LoseHappy(int a){
         player.currenthappy -= a;
+        happybar.SetHappy(player.currenthappy);
     }
 }
